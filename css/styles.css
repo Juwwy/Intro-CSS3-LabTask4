@@ -1,1 +1,90 @@
 /* All styles to be written here... */
+
+
+body{
+    padding: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 0.8em;
+    border: 20px solid rgb(49, 207, 207);
+} 
+#container{
+    margin:0 auto;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 25px;
+    color:darkslategrey;
+    margin: 0;;
+
+}
+
+header :hover{
+    color:darkviolet;
+}
+
+#first {
+    background-color:rgb(49, 207, 207);
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#first:hover {
+    background-color:rgb(161, 28, 161);
+    padding: 20px;
+    display: block;
+}
+
+h2 .title {
+    font-weight: 60px;
+}
+
+#two-color {
+    background-color:rebeccapurple;
+    padding: 35px;
+    text-align: justify;
+    font-size: 20px;
+    color:salmon;
+}
+
+#two-color:hover{
+    background-color:rgb(153, 53, 17);
+    padding: 35px;
+    text-align: justify;
+    font-size: 20px;
+    color:seagreen;
+}
+
+#footer{
+    text-align:justify;
+    font-size: 20px;
+}
+
+#footer h2{
+    color:thistle;
+    font-size: 40px;
+}
+#footer div:hover{
+    color:peru;
+}
+#footer h2:hover{
+    font-size:30px;
+    color:peru;
+    
+    
+}
+
+img{
+    font-size: 150px;
+    padding:15px;
+    border-radius: 1px;
+    position: relative;
+    left: 60px;
+}
+
+img:hover{
+    border: 10px dotted rgb(117, 0, 11);
+}
